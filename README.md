@@ -7,16 +7,12 @@ Sqlite database
 Install Docker (https://www.docker.com)
 
 # Getting Started
-
-Create a folder for your project
-
-Open the command line
-
-CMD -> cd <your folder>
-    
+  
 CMD -> git clone https://github.com/ac-gil/flask-app.git
 
-CMD -> docker-compose up
+CMD -> cd <your folder>
+
+CMD -> docker-compose up --build
 
 
     
