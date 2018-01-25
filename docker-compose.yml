@@ -1,0 +1,18 @@
+version: '2'
+services:
+  test:
+    build:
+      context: ./test
+      dockerfile: Dockerfile
+    image: flask-test
+    depends_on:
+      - app
+    command: chmod +x test.sh
+    command: ./test.sh
+  app:
+    build:
+      context: ./app
+      dockerfile: Dockerfile
+    image: flask-app
+    ports:
+    - "5000:5000"
