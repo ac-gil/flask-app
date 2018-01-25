@@ -2,11 +2,11 @@
 This code test consists of the implementation of a simple Python Flask API using a
 Sqlite database
 
-Prerequisites
+# Prerequisites
 
 Install Docker (https://www.docker.com)
 
-Getting Started
+# Getting Started
 
 Create a folder for your project
 
