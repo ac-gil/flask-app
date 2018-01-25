@@ -7,8 +7,8 @@ services:
     image: flask-test
     depends_on:
       - app
-    command: chmod +x test.sh
-    command: ./test.sh
+    command: bash -c "chmod +x test.sh && ./test.sh"
+    
   app:
     build:
       context: ./app
@@ -16,3 +16,4 @@ services:
     image: flask-app
     ports:
     - "5000:5000"
+       
