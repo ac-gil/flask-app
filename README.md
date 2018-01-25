@@ -10,7 +10,7 @@ Install Docker (https://www.docker.com)
   
 CMD -> git clone https://github.com/ac-gil/flask-app.git
 
-CMD -> cd <your folder>
+CMD -> cd your folder
 
 CMD -> docker-compose up --build
 
